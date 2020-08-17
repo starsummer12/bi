@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "NBA", "NBA\NBA.rptproj", "{D3075254-D7AC-4AD3-B4AB-EB0422F59B78}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3075254-D7AC-4AD3-B4AB-EB0422F59B78}.Debug|Default.ActiveCfg = Debug
+		{D3075254-D7AC-4AD3-B4AB-EB0422F59B78}.Debug|Default.Build.0 = DebugLocal
+		{D3075254-D7AC-4AD3-B4AB-EB0422F59B78}.Debug|Default.Deploy.0 = DebugLocal
+		{D3075254-D7AC-4AD3-B4AB-EB0422F59B78}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{D3075254-D7AC-4AD3-B4AB-EB0422F59B78}.DebugLocal|Default.Build.0 = DebugLocal
+		{D3075254-D7AC-4AD3-B4AB-EB0422F59B78}.Release|Default.ActiveCfg = Release
+		{D3075254-D7AC-4AD3-B4AB-EB0422F59B78}.Release|Default.Build.0 = Release
+		{D3075254-D7AC-4AD3-B4AB-EB0422F59B78}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

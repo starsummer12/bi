@@ -1,0 +1,1269 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="4a0fcc47-c73b-4c58-a342-1429ac619c3a" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Project</ID>
+  <Name>Project</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="13" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-10820" scrolltop="869" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="23019" y="16210" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900180380100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Players" left="5420" top="7400" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="4710" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000b80b000066120000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Players" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Playoffs" left="11064" top="4280" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="3000" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000b80b000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Playoffs" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Regular_Season" left="5420" top="14510" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="3000" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000b80b000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Regular_Season" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Teams_State" left="-5343" top="13890" logicalid="4" controlid="4" masterid="0" hint1="0" hint2="0" width="3000" height="2593" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000b80b0000210a0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Teams_State" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Team_season" left="20" top="12746" logicalid="5" controlid="5" masterid="0" hint1="0" hint2="0" width="3000" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000b80b000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Team_season" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="year" left="20" top="9164" logicalid="6" controlid="6" masterid="0" hint1="0" hint2="0" width="3000" height="1182" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000b80b00009e040000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_year" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="6521" top="11611" logicalid="7" controlid="7" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[Regular_Season-Players]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="3" sourceattachpoint="5" destattachpoint="4" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="6920" y="12110" />
+              <point x="6920" y="14510" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="8120" top="7030" logicalid="8" controlid="8" masterid="0" hint1="0" hint2="0" width="3244" height="925" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[Playoffs-Players]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="2" sourceattachpoint="11" destattachpoint="20" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="8420" y="7555" />
+              <point x="9742" y="7555" />
+              <point x="9742" y="7330" />
+              <point x="11064" y="7330" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="2720" top="6480" logicalid="9" controlid="9" masterid="0" hint1="0" hint2="0" width="8644" height="3675" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[Playoffs-year]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="6" destid="2" sourceattachpoint="11" destattachpoint="18" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="3020" y="9755" />
+              <point x="4220" y="9755" />
+              <point x="4220" y="6780" />
+              <point x="11064" y="6780" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="2720" top="9356" logicalid="10" controlid="10" masterid="0" hint1="0" hint2="0" width="3000" height="7954" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[Regular_Season-year]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="6" destid="3" sourceattachpoint="11" destattachpoint="18" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="3020" y="9755" />
+              <point x="4220" y="9755" />
+              <point x="4220" y="17010" />
+              <point x="5420" y="17010" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="-2643" top="13687" logicalid="11" controlid="11" masterid="0" hint1="0" hint2="0" width="2963" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[Team_season-Teams_State]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="5" sourceattachpoint="11" destattachpoint="14" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="-2343" y="14086" />
+              <point x="-1162" y="14086" />
+              <point x="-1162" y="14146" />
+              <point x="20" y="14146" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="1121" top="9847" logicalid="12" controlid="12" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[Team_season-year]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="6" destid="5" sourceattachpoint="5" destattachpoint="4" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="1520" y="10346" />
+              <point x="1520" y="12746" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-10820</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>869</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>-5343</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>4280</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>75</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="6d61a072-d53c-4f89-8930-69dbcfe4ef46">
+      <ID>Year</ID>
+      <Name>Year</Name>
+      <DimensionID>Year</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="fcb50a0f-ec48-49dc-886c-60231b4740d4">
+          <AttributeID>Year</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="de8f2d99-62d3-4234-acfd-61880c0fa685">
+      <ID>Players</ID>
+      <Name>Players</Name>
+      <DimensionID>Players</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="37f30864-5ff7-45ae-be11-866b0acb2a14">
+          <AttributeID>Player ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3d4c086e-1b6f-474e-8bd9-a378a287130a">
+          <AttributeID>Firstname</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8ef99fe4-2ad1-4ef5-9b1b-539ca4514223">
+          <AttributeID>Lastname</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5574343b-c490-41b7-8148-bc0fb30a2986">
+          <AttributeID>Position</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="90e226bd-1ffb-40a7-9256-1111eadfba68">
+          <AttributeID>Weight</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="fbe9ed4c-ea2b-48f8-a4cb-f8ca2aac6111">
+      <ID>Teams State</ID>
+      <Name>Teams State</Name>
+      <DimensionID>Teams State</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="9f9b9a62-02f3-4951-8afd-62f9230f7bd4">
+          <AttributeID>Leag</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8959b0fd-99ec-4570-9d68-9bc8440ce8f5">
+          <AttributeID>Team</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f26403a6-c616-418a-a380-442434bf6700">
+          <AttributeID>Team Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ebf8f24e-4a2c-40a0-a35b-74b5db0dff9b">
+          <AttributeID>State Code</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e1deac5d-3baa-4fa1-9ef5-db5bbbfbc44e">
+          <AttributeID>State</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="6ade66f6-4c47-45f9-978d-30f214c95f16">
+      <ID>Regular Season</ID>
+      <Name>Regular Season</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="48073fcc-2666-4ec5-9c51-13c4cdf8004b">
+          <ID>Gp</ID>
+          <Name>Gp</Name>
+          <Source dwd:design-time-name="4a41c2fa-6616-4eb9-a1ec-963cb91153ee">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="68834a71-1544-4767-8479-ea2c0d54c6eb">
+              <TableID>dbo_Regular_Season</TableID>
+              <ColumnID>gp</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="7c9ee430-b5c8-4761-9ac5-075074051278">
+          <ID>Minutes</ID>
+          <Name>Minutes</Name>
+          <Source dwd:design-time-name="e2baf866-d2dd-4703-adcf-9a606219805e">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="fb6c4608-e3ba-4acc-9615-f7995f396cda">
+              <TableID>dbo_Regular_Season</TableID>
+              <ColumnID>minutes</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="9c4866e6-ab7a-4c34-a028-7a0cd86cf4ff">
+          <ID>Pts</ID>
+          <Name>Pts</Name>
+          <Source dwd:design-time-name="0c82c6bf-0a77-430f-a3e8-c6a5c3b2527e">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="390161dd-305d-489a-9c19-a6bc8bfa2154">
+              <TableID>dbo_Regular_Season</TableID>
+              <ColumnID>pts</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="3a91d05e-4203-4a23-9c71-dadee55d618b">
+          <ID>Oreb</ID>
+          <Name>Oreb</Name>
+          <Source dwd:design-time-name="e020a304-8abe-4eed-a825-ba2a166a5fae">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="225cf121-0125-4ef7-947e-4eec1fd729d1">
+              <TableID>dbo_Regular_Season</TableID>
+              <ColumnID>oreb</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="568d1d90-f87b-4591-9448-dfbb0ea972c5">
+          <ID>Dreb</ID>
+          <Name>Dreb</Name>
+          <Source dwd:design-time-name="b2a588fc-3572-4c00-a5f5-c73ef5a82c35">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="e4dbe60e-b72e-42d3-9ce3-0279e3e7db8b">
+              <TableID>dbo_Regular_Season</TableID>
+              <ColumnID>dreb</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="36faf5af-6369-4dff-88d3-d245b8af0a81">
+          <ID>Reb</ID>
+          <Name>Reb</Name>
+          <Source dwd:design-time-name="10c8ab75-e953-4aef-867b-03b329e3aa50">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="e636b3a1-d11c-4cd5-ae08-e74aa0868cf6">
+              <TableID>dbo_Regular_Season</TableID>
+              <ColumnID>reb</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="33c3a9a7-46cc-4eba-ba6c-aaa868c61f03">
+          <ID>Asts</ID>
+          <Name>Asts</Name>
+          <Source dwd:design-time-name="2646ee03-3dc7-47a6-a589-ea300242c13d">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="151871aa-27e9-4b6b-9741-46bd8975aedb">
+              <TableID>dbo_Regular_Season</TableID>
+              <ColumnID>asts</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="db68cdfa-7b44-4da4-81ad-7cd3153103f0">
+          <ID>Stl</ID>
+          <Name>Stl</Name>
+          <Source dwd:design-time-name="a130fdb7-8821-48f2-ba43-776cdad0e052">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="ec7b3639-a413-4267-8aa1-e42e9dbeaad1">
+              <TableID>dbo_Regular_Season</TableID>
+              <ColumnID>stl</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="569e4eab-b335-4f0d-bcae-a696b428c6b1">
+          <ID>Blk</ID>
+          <Name>Blk</Name>
+          <Source dwd:design-time-name="90971f56-38ac-4fda-aa46-e50f7680538e">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="dacb32e7-b2d2-4ee2-a776-43cdb828ad6e">
+              <TableID>dbo_Regular_Season</TableID>
+              <ColumnID>blk</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="b37ac2b7-7f29-456c-834b-c9029a0eeb5d">
+          <ID>Turnover</ID>
+          <Name>Turnover</Name>
+          <Source dwd:design-time-name="baf68474-5b73-4154-be84-45ef99478592">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="097e8a4b-853b-4aae-9685-d04ed8b753f3">
+              <TableID>dbo_Regular_Season</TableID>
+              <ColumnID>turnover</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="1da7f733-4acf-435f-99a2-42fab96bc25f">
+          <ID>Pf</ID>
+          <Name>Pf</Name>
+          <Source dwd:design-time-name="1ad56709-cb41-44ec-901e-e074dfd6f0a1">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="fe144311-943d-4c9f-b3f2-ee69494dddf6">
+              <TableID>dbo_Regular_Season</TableID>
+              <ColumnID>pf</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="34f15531-90b7-4a41-a31e-bcc47f5fc6b6">
+          <ID>Fga</ID>
+          <Name>Fga</Name>
+          <Source dwd:design-time-name="f2a6ec2a-df13-426b-abd6-325e65c7d0b9">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="68550081-0236-42fa-98b4-7155878dcd0b">
+              <TableID>dbo_Regular_Season</TableID>
+              <ColumnID>fga</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="80d0a3af-acd3-4156-a620-2b343fc22bc0">
+          <ID>Fgm</ID>
+          <Name>Fgm</Name>
+          <Source dwd:design-time-name="d7a00cd3-debf-4435-8a0b-9c235ef8bb7c">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="99d3f2bf-351e-4e1d-b340-8d3e89a991b4">
+              <TableID>dbo_Regular_Season</TableID>
+              <ColumnID>fgm</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="7b84d891-1fa8-4d1f-ae49-a0bd645621ee">
+          <ID>Fta</ID>
+          <Name>Fta</Name>
+          <Source dwd:design-time-name="8386e069-cea4-4e12-92f6-26498a9722bb">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="740fce29-667d-48ae-ade4-b363552a7b06">
+              <TableID>dbo_Regular_Season</TableID>
+              <ColumnID>fta</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="c1355a54-e268-4bda-b216-1989f1d9fd10">
+          <ID>Ftm</ID>
+          <Name>Ftm</Name>
+          <Source dwd:design-time-name="242c84dd-50d6-415d-9ed6-c550bb656415">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="a8e3782b-0da1-460d-b86b-f83eef5dda45">
+              <TableID>dbo_Regular_Season</TableID>
+              <ColumnID>ftm</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="244836ea-ed8c-4f36-a9b6-a0ca9328e263">
+          <ID>Tpa</ID>
+          <Name>Tpa</Name>
+          <Source dwd:design-time-name="cd012d8f-b857-483a-8c41-2149f9bcd931">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="063bfc9a-bbbd-4aba-8543-a826e1903bb2">
+              <TableID>dbo_Regular_Season</TableID>
+              <ColumnID>tpa</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="24b620ce-e6fc-4c08-a886-9fd2d00b0d44">
+          <ID>Tpm</ID>
+          <Name>Tpm</Name>
+          <Source dwd:design-time-name="38b0e1a8-d9f5-4376-bea6-e4f1b3cbf067">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="0abda818-9a7e-41bb-a974-05e91fcc121e">
+              <TableID>dbo_Regular_Season</TableID>
+              <ColumnID>tpm</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="ba172910-50cc-4f5b-aeea-bef8c6d99f97">
+          <ID>Regular Season Count</ID>
+          <Name>Regular Season Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="8faf9bef-84e0-4fbe-9365-ca0cd4994bc7">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="2d7c81b1-b685-449b-a58d-d4315df2dfea">
+              <TableID>dbo_Regular_Season</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="0f411efb-3ca3-45f7-aaca-afbfd9bae2dc">
+          <CubeDimensionID>Year</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="81159a76-d9d2-46a1-b3c5-de5d915ffa8a">
+              <AttributeID>Year</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="379e0f10-500d-47a5-8b7f-142d9ed1a400">
+                  <DataType>Double</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="b658e78a-9ca7-40d3-9b28-ee3b0a667b2e">
+                    <TableID>dbo_Regular_Season</TableID>
+                    <ColumnID>year</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="65ebfb5a-fa95-4767-b35a-82d2e25d9cf8">
+          <CubeDimensionID>Players</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="222a315d-8225-4209-8c9c-7a27558706e8">
+              <AttributeID>Player ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="81ecdb55-7f12-4950-866d-e09187fc7a0d">
+                  <DataType>WChar</DataType>
+                  <DataSize>255</DataSize>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a818b6e6-5ed8-43a6-8012-30950af21b67">
+                    <TableID>dbo_Regular_Season</TableID>
+                    <ColumnID>playerID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="a8fe0e50-df57-41db-868b-358df8d41efb">
+      <ID>Playoffs</ID>
+      <Name>Playoffs</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="4c456623-408a-41bb-a334-f5e978778335">
+          <ID>Gp - Playoffs</ID>
+          <Name>Gp - Playoffs</Name>
+          <Source dwd:design-time-name="df43fba0-2f3d-47de-8e34-231d3a99dd38">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="7b872887-4a83-4097-973f-23bf94fabc84">
+              <TableID>dbo_Playoffs</TableID>
+              <ColumnID>gp</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="be10dc5b-e492-47a7-8930-3611f17407b4">
+          <ID>Minutes - Playoffs</ID>
+          <Name>Minutes - Playoffs</Name>
+          <Source dwd:design-time-name="3c96827b-3907-461d-9534-5213b7b1e9b6">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="42970a18-8cf5-4829-8cd2-6d5135e6f640">
+              <TableID>dbo_Playoffs</TableID>
+              <ColumnID>minutes</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="b5efd36b-08fe-4281-aa3f-17f07901efdc">
+          <ID>Pts - Playoffs</ID>
+          <Name>Pts - Playoffs</Name>
+          <Source dwd:design-time-name="04487ff9-f18c-4097-8a8e-779be52044ac">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="b5b8143b-bd43-4648-8f67-f4965aef0427">
+              <TableID>dbo_Playoffs</TableID>
+              <ColumnID>pts</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="4758072f-91d0-4942-a36c-0df20c82fc01">
+          <ID>Dreb - Playoffs</ID>
+          <Name>Dreb - Playoffs</Name>
+          <Source dwd:design-time-name="1c68e73f-e8d9-4018-ac20-cc1dd8a1c7ac">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="d03a1415-d85f-4614-b945-de9166378e85">
+              <TableID>dbo_Playoffs</TableID>
+              <ColumnID>dreb</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="96fd6742-3dff-4591-ad62-abef048cfa44">
+          <ID>Oreb - Playoffs</ID>
+          <Name>Oreb - Playoffs</Name>
+          <Source dwd:design-time-name="efbe0659-a25c-4587-9745-8684f174712c">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="b2ce27b3-658b-4107-8268-237f8d3e697b">
+              <TableID>dbo_Playoffs</TableID>
+              <ColumnID>oreb</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="19e0824d-7cdc-4a92-9081-320207e0e2bc">
+          <ID>Reb - Playoffs</ID>
+          <Name>Reb - Playoffs</Name>
+          <Source dwd:design-time-name="44333f75-5fc5-4078-8c0f-91a0c4a50f00">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="1ff356bf-f6ad-48c9-b8c6-a55639338f3c">
+              <TableID>dbo_Playoffs</TableID>
+              <ColumnID>reb</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="f6c8ef5a-3495-40f6-b379-c4cc364ecd61">
+          <ID>Asts - Playoffs</ID>
+          <Name>Asts - Playoffs</Name>
+          <Source dwd:design-time-name="5c2af8d0-a0f7-406d-8407-857bd3013bb4">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="3fd32945-371f-4383-88ed-1f1e74a56a96">
+              <TableID>dbo_Playoffs</TableID>
+              <ColumnID>asts</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="3db919d9-c282-41c9-a9ff-1d817083237a">
+          <ID>Stl - Playoffs</ID>
+          <Name>Stl - Playoffs</Name>
+          <Source dwd:design-time-name="1d4a92a7-4806-41c8-94cd-bbfbaf228f31">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="c061b830-d31e-4972-a9c5-942c251bc760">
+              <TableID>dbo_Playoffs</TableID>
+              <ColumnID>stl</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="72a50752-0db6-4d67-89d1-7a0bcaca7312">
+          <ID>Blk - Playoffs</ID>
+          <Name>Blk - Playoffs</Name>
+          <Source dwd:design-time-name="7cc73493-e097-45cb-a07e-66f9c602403d">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="d235e648-edad-47c0-9d49-52697e7ca511">
+              <TableID>dbo_Playoffs</TableID>
+              <ColumnID>blk</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="e794f02a-1f91-4c89-af14-e549d8e8348f">
+          <ID>Turnover - Playoffs</ID>
+          <Name>Turnover - Playoffs</Name>
+          <Source dwd:design-time-name="83c56df1-75c9-446f-911d-24e539784b55">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="216c4c52-deff-4602-8304-a6abffaa387f">
+              <TableID>dbo_Playoffs</TableID>
+              <ColumnID>turnover</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="08477137-12ae-4023-baae-0b08e008ff0e">
+          <ID>Pf - Playoffs</ID>
+          <Name>Pf - Playoffs</Name>
+          <Source dwd:design-time-name="8b0ca805-1ed4-457b-b2a2-724e61d4a0cb">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="d1336d0d-4d8d-493e-80b7-1f1420c12766">
+              <TableID>dbo_Playoffs</TableID>
+              <ColumnID>pf</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="ea59db29-54bc-43ab-947f-56db9211e3ca">
+          <ID>Fga - Playoffs</ID>
+          <Name>Fga - Playoffs</Name>
+          <Source dwd:design-time-name="05e81ac4-70fa-4da1-a562-2fe7d75f267a">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="e866ae95-e6d1-4c4d-9b9e-dd045778bb46">
+              <TableID>dbo_Playoffs</TableID>
+              <ColumnID>fga</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="13c8859d-cb6c-4e7c-874c-c73ccb5f3596">
+          <ID>Fgm - Playoffs</ID>
+          <Name>Fgm - Playoffs</Name>
+          <Source dwd:design-time-name="df008eac-1af8-4712-8e25-868fbd705439">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="0cad08e4-f611-4fe7-885d-b35997550199">
+              <TableID>dbo_Playoffs</TableID>
+              <ColumnID>fgm</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="b28827f6-85fb-4bdb-8b30-ae4b316c2e08">
+          <ID>Fta - Playoffs</ID>
+          <Name>Fta - Playoffs</Name>
+          <Source dwd:design-time-name="d47dfd51-eb6e-4243-8646-567fc226b3b9">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="5a29394d-0022-4559-b766-58ae43a6f87f">
+              <TableID>dbo_Playoffs</TableID>
+              <ColumnID>fta</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="b6417e31-f8fd-416f-818b-1aa84a621e96">
+          <ID>Ftm - Playoffs</ID>
+          <Name>Ftm - Playoffs</Name>
+          <Source dwd:design-time-name="f1dd1018-e30b-4fa3-b69b-992c3b9d8d70">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="6ecdf635-2e4e-4cee-9287-6986fd808047">
+              <TableID>dbo_Playoffs</TableID>
+              <ColumnID>ftm</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="4f67f7b0-3866-4083-a462-f13ea26edd1d">
+          <ID>Tpa - Playoffs</ID>
+          <Name>Tpa - Playoffs</Name>
+          <Source dwd:design-time-name="40fa5ec2-c7a0-427f-8487-155716f6243b">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="14b34901-9303-4ebc-a3e0-c66cbba97da2">
+              <TableID>dbo_Playoffs</TableID>
+              <ColumnID>tpa</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="4b608f94-d979-4fc7-8481-3ef5b2772af2">
+          <ID>Tpm - Playoffs</ID>
+          <Name>Tpm - Playoffs</Name>
+          <Source dwd:design-time-name="7242a636-deb0-406d-b494-14f2016e4bbe">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="d76ff5a2-75ed-4a79-965b-99a4230c5c34">
+              <TableID>dbo_Playoffs</TableID>
+              <ColumnID>tpm</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="99ca23d7-59f1-4983-afd1-87850d3d2075">
+          <ID>Playoffs Count</ID>
+          <Name>Playoffs Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="a57fd11e-eb53-47cf-bcc6-9139cbd072ac">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="eddbd154-d39b-4759-aeb3-669412ea8c9a">
+              <TableID>dbo_Playoffs</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="e187058d-6304-45d0-a7b9-30c90dd3de42">
+          <CubeDimensionID>Year</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="423343cc-d936-40f3-916e-133b78f54580">
+              <AttributeID>Year</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="461e0375-a1c8-4e66-9bce-39984db2b5a3">
+                  <DataType>Double</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ff844527-2ab2-40a7-921a-104bca77362a">
+                    <TableID>dbo_Playoffs</TableID>
+                    <ColumnID>year</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="4b92a12f-02c7-4739-8364-b594ac3bb5b9">
+          <CubeDimensionID>Players</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="ef752a30-5fa8-456d-9aef-ff90c6e41f78">
+              <AttributeID>Player ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="6a2f9957-6942-4453-8e57-bbaccea30e13">
+                  <DataType>WChar</DataType>
+                  <DataSize>255</DataSize>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ab6f3f8a-0809-4344-a0e9-502fa52d06e8">
+                    <TableID>dbo_Playoffs</TableID>
+                    <ColumnID>playerID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="bbc6e383-1778-4f19-b962-f201ba835cf8">
+      <ID>Team Season</ID>
+      <Name>Team Season</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="ae2bb7db-9fa1-438f-9145-89f4f1e25f60">
+          <ID>o Fgm</ID>
+          <Name>o Fgm</Name>
+          <Source dwd:design-time-name="57bca3db-b18e-4434-bc8f-0092ac42963c">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="bf8d5b6b-d990-47f7-8394-a0da0895f65a">
+              <TableID>dbo_Team_season</TableID>
+              <ColumnID>o_fgm</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="744c19ad-fdb9-4231-8cf0-feb4a95d048e">
+          <ID>o Fga</ID>
+          <Name>o Fga</Name>
+          <Source dwd:design-time-name="61905183-b4d1-4f4f-a594-77fce4458a8b">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="b89f2883-fdcc-4f67-b4d7-f42a42f93d8f">
+              <TableID>dbo_Team_season</TableID>
+              <ColumnID>o_fga</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="3f8b57cb-7bb8-4bab-a722-88a4feee85c7">
+          <ID>o Ftm</ID>
+          <Name>o Ftm</Name>
+          <Source dwd:design-time-name="36dedc50-cd5b-4f7a-a6b4-40369c07052b">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="6a824f23-4cc0-414f-a2c8-24116444ee08">
+              <TableID>dbo_Team_season</TableID>
+              <ColumnID>o_ftm</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="c7dc025e-ccba-45ba-b1ee-5394cc943758">
+          <ID>o Fta</ID>
+          <Name>o Fta</Name>
+          <Source dwd:design-time-name="ab8c6aee-ad70-462b-9e82-a58aaa9d7f13">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="822ce3e5-67ea-4fa1-85c6-c371f513d46a">
+              <TableID>dbo_Team_season</TableID>
+              <ColumnID>o_fta</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="9e04c309-3ab6-4496-9b67-a8af17861f90">
+          <ID>o Oreb</ID>
+          <Name>o Oreb</Name>
+          <Source dwd:design-time-name="64c6ff1d-9742-4e87-b60b-f918ae5423dc">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="5f539593-bf8c-4945-91a6-1125ff148606">
+              <TableID>dbo_Team_season</TableID>
+              <ColumnID>o_oreb</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="8ec08e0b-621d-4e42-9f0a-4615396f9061">
+          <ID>o Dreb</ID>
+          <Name>o Dreb</Name>
+          <Source dwd:design-time-name="d4a72289-6719-4067-bb19-859b380a92fa">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="3021cbe2-d257-4031-bc21-94a87843ebf6">
+              <TableID>dbo_Team_season</TableID>
+              <ColumnID>o_dreb</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="3b300841-1a91-4905-8647-d366b5dba7b2">
+          <ID>o Reb</ID>
+          <Name>o Reb</Name>
+          <Source dwd:design-time-name="2830ff4c-257b-470f-82d9-3a07911860e3">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="ceb251c8-3610-42fe-ba3a-9b5708d59476">
+              <TableID>dbo_Team_season</TableID>
+              <ColumnID>o_reb</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="ad064a06-1a99-441c-afc3-044feb6c0990">
+          <ID>o Asts</ID>
+          <Name>o Asts</Name>
+          <Source dwd:design-time-name="058399c5-c282-4c85-90ea-7ac3e8497883">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="1596bd41-7e11-45ef-87fd-391a353f898c">
+              <TableID>dbo_Team_season</TableID>
+              <ColumnID>o_asts</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="008503ec-b65e-4211-9656-2ef283117100">
+          <ID>o Pf</ID>
+          <Name>o Pf</Name>
+          <Source dwd:design-time-name="34495ee5-9954-4e37-b879-6dbc819e3a95">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="f792f26d-adbc-4199-91ec-23c6c90a9376">
+              <TableID>dbo_Team_season</TableID>
+              <ColumnID>o_pf</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="ae43432c-837d-4d0e-be0a-3a09dac92114">
+          <ID>o Stl</ID>
+          <Name>o Stl</Name>
+          <Source dwd:design-time-name="14c345fd-6c9f-4a0e-886c-2c02f5384ddb">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="9562b5f5-10f6-471d-a431-c3bc377c031d">
+              <TableID>dbo_Team_season</TableID>
+              <ColumnID>o_stl</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="9acf0128-ec42-4744-86e1-252133f65a99">
+          <ID>o To</ID>
+          <Name>o To</Name>
+          <Source dwd:design-time-name="156e534d-fef0-4a0d-a381-4bcc6b8ab8e2">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="e57971bf-8c10-4427-8ee6-a4f973cc235b">
+              <TableID>dbo_Team_season</TableID>
+              <ColumnID>o_to</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="9817c672-e465-45c9-b8b3-2f6f8d7b7f0a">
+          <ID>o Blk</ID>
+          <Name>o Blk</Name>
+          <Source dwd:design-time-name="9b7ada97-3162-44b7-9e51-6897b2094765">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="be913746-1e4a-4b6e-9456-ca7a16d47d96">
+              <TableID>dbo_Team_season</TableID>
+              <ColumnID>o_blk</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="f361d6eb-1068-4f5b-939f-ca96455b6f51">
+          <ID>o 3pm</ID>
+          <Name>o 3pm</Name>
+          <Source dwd:design-time-name="915d7583-c55d-4653-9796-88b9e96b2f06">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="7e9ec014-fd0a-483a-93c0-3421efb63891">
+              <TableID>dbo_Team_season</TableID>
+              <ColumnID>o_3pm</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="b0cc1d88-22af-4289-a866-68cd57a42e9f">
+          <ID>o 3pa</ID>
+          <Name>o 3pa</Name>
+          <Source dwd:design-time-name="8cadf575-7e24-419c-9a34-1d75752af5ab">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="9c26317c-e374-4e49-8059-717407848c1f">
+              <TableID>dbo_Team_season</TableID>
+              <ColumnID>o_3pa</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="e66bfc8e-7c50-4f0e-8f1d-9483ea697191">
+          <ID>o Pts</ID>
+          <Name>o Pts</Name>
+          <Source dwd:design-time-name="5ec87292-66bd-4959-957c-6080525db005">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="646a2a9e-e591-447e-a9dd-44eb4e834d22">
+              <TableID>dbo_Team_season</TableID>
+              <ColumnID>o_pts</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="b5865996-08e6-4208-ac2c-16e300dc866d">
+          <ID>d Fgm</ID>
+          <Name>d Fgm</Name>
+          <Source dwd:design-time-name="1a868360-3f7e-4e03-b443-a5f84b39a2bb">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="b4adfc4f-252e-4f87-839f-ba069c4d0b18">
+              <TableID>dbo_Team_season</TableID>
+              <ColumnID>d_fgm</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="8a6b1494-c92c-41a4-aaee-cae15034e6ed">
+          <ID>d Fga</ID>
+          <Name>d Fga</Name>
+          <Source dwd:design-time-name="f0c918a2-010b-49c7-a128-14a23824af44">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="cf815ea2-3251-4bbe-b042-25ef78801951">
+              <TableID>dbo_Team_season</TableID>
+              <ColumnID>d_fga</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="d05da597-0ebc-44b2-9adf-117006039429">
+          <ID>d Ftm</ID>
+          <Name>d Ftm</Name>
+          <Source dwd:design-time-name="5bfbe63b-c7be-451f-9fef-44336fb472cb">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="a152c913-8423-4fd3-825a-1aace20d14f0">
+              <TableID>dbo_Team_season</TableID>
+              <ColumnID>d_ftm</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="5a365f6c-c874-4ae3-94ca-172a90866a0c">
+          <ID>d Fta</ID>
+          <Name>d Fta</Name>
+          <Source dwd:design-time-name="2c8f3d68-cd11-4287-90c5-bbf5e950a7f1">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="d5c7f881-5b83-4b31-8021-062ceaa7f79c">
+              <TableID>dbo_Team_season</TableID>
+              <ColumnID>d_fta</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="8c02daf9-7a6f-4727-8a07-795da278a963">
+          <ID>d Oreb</ID>
+          <Name>d Oreb</Name>
+          <Source dwd:design-time-name="14f5289f-ffd2-4e83-929f-138f2eba5b0d">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="08ffcb6d-f8e0-4b89-b8be-51a1dca2c2e5">
+              <TableID>dbo_Team_season</TableID>
+              <ColumnID>d_oreb</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="549bc003-b4de-4c0d-a6b4-8fcf0862cda4">
+          <ID>d Dreb</ID>
+          <Name>d Dreb</Name>
+          <Source dwd:design-time-name="7185a65c-18dc-4d64-ad59-0d0e08ab873f">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="4a742939-2eea-4564-b154-877eebb2b1a8">
+              <TableID>dbo_Team_season</TableID>
+              <ColumnID>d_dreb</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="166e9eb4-ff5d-489a-9373-68ddb1902798">
+          <ID>d Reb</ID>
+          <Name>d Reb</Name>
+          <Source dwd:design-time-name="8014fdc2-c173-4417-a9c3-b2519caa32fb">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="32ff1d06-dab7-4da7-8a94-bc7659d33559">
+              <TableID>dbo_Team_season</TableID>
+              <ColumnID>d_reb</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="17f5f658-4e92-41ab-a2fa-9022b6e94240">
+          <ID>d Asts</ID>
+          <Name>d Asts</Name>
+          <Source dwd:design-time-name="e903fbbf-c0ac-4022-8b4d-16769add76a3">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="a63375da-45f5-41c6-884f-4dca163622f2">
+              <TableID>dbo_Team_season</TableID>
+              <ColumnID>d_asts</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="71eba212-868a-40c8-9163-b2ebfb28dcb4">
+          <ID>d Pf</ID>
+          <Name>d Pf</Name>
+          <Source dwd:design-time-name="259bd4e7-72d5-46ca-a0d5-d69786b5208b">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="0251f16e-117e-4d17-85fa-e17e08f01551">
+              <TableID>dbo_Team_season</TableID>
+              <ColumnID>d_pf</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="6dd05de8-4610-4c27-b268-a5b7964824ea">
+          <ID>d Stl</ID>
+          <Name>d Stl</Name>
+          <Source dwd:design-time-name="c849e2f4-593a-4709-9ea7-72f195810784">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="cacc73a9-7014-4033-946c-c36f233d6b01">
+              <TableID>dbo_Team_season</TableID>
+              <ColumnID>d_stl</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="ca91ae11-c810-423f-a268-78514ee3c1cd">
+          <ID>d To</ID>
+          <Name>d To</Name>
+          <Source dwd:design-time-name="603eb389-1b75-4455-85d7-c43af344673a">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="bb650a7e-6880-4f40-99a9-51e588c58e3a">
+              <TableID>dbo_Team_season</TableID>
+              <ColumnID>d_to</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="a5e076d4-0554-42aa-8f37-60f0ef5a79f5">
+          <ID>d Blk</ID>
+          <Name>d Blk</Name>
+          <Source dwd:design-time-name="79f1a889-87a2-46f5-b313-f6bb8c383509">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="f4df8ed9-01d5-48cb-a261-92bf2ccc9880">
+              <TableID>dbo_Team_season</TableID>
+              <ColumnID>d_blk</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="ba2ff55e-841e-42c4-9236-3929acea7fdf">
+          <ID>d 3pm</ID>
+          <Name>d 3pm</Name>
+          <Source dwd:design-time-name="cf554425-292d-43cf-a7ec-cbc2ba9c3367">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="5edd48ae-430f-45d9-9d2b-7286d939e433">
+              <TableID>dbo_Team_season</TableID>
+              <ColumnID>d_3pm</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="df31a6a7-7a92-4be1-a026-b5a9e2833335">
+          <ID>d 3pa</ID>
+          <Name>d 3pa</Name>
+          <Source dwd:design-time-name="3cf32445-a25f-44bb-94bd-1fe64a2fa989">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="b0e35124-1bb2-4820-8fca-118cfa80b5cf">
+              <TableID>dbo_Team_season</TableID>
+              <ColumnID>d_3pa</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="e0123c6c-f2ef-4a41-be23-a91c6c27f040">
+          <ID>d Pts</ID>
+          <Name>d Pts</Name>
+          <Source dwd:design-time-name="7b0073e3-0293-4ff5-b08e-82bcc7433697">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="fa753635-925a-428e-8cb4-2b89cb00faec">
+              <TableID>dbo_Team_season</TableID>
+              <ColumnID>d_pts</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="d6c4ed68-7f9f-49ee-9491-b6a97b71bfa2">
+          <ID>Pace</ID>
+          <Name>Pace</Name>
+          <Source dwd:design-time-name="b4b7ebab-4fc4-4efe-9029-932542404d9f">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="abc7112b-2825-4fea-948d-ec593695752b">
+              <TableID>dbo_Team_season</TableID>
+              <ColumnID>pace</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="e7382636-375a-4e66-8fa5-ca0938537ef7">
+          <ID>Won</ID>
+          <Name>Won</Name>
+          <Source dwd:design-time-name="b98f254b-727a-4c5e-85c4-b1a9ec5c7539">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="1454e291-a6c2-491e-b874-125e183a6d3d">
+              <TableID>dbo_Team_season</TableID>
+              <ColumnID>won</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="9b51753c-f7a3-48ef-81fe-887c5561bd70">
+          <ID>Lost</ID>
+          <Name>Lost</Name>
+          <Source dwd:design-time-name="0691f811-af6e-4164-ac76-b0532eb6df60">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="434a5679-fd2e-4395-a542-b3cf8f1cfcbf">
+              <TableID>dbo_Team_season</TableID>
+              <ColumnID>lost</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="8047eecf-9fe7-49cb-87b4-6c4c73a42bc4">
+          <ID>Team Season Count</ID>
+          <Name>Team Season Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="b7f51510-fa56-49d5-8ad1-44e6e5d129a0">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="2a32c55f-0966-45e7-9da7-7414e8593389">
+              <TableID>dbo_Team_season</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="83abaebb-0d9d-4263-83a4-b0f9c82cf182">
+          <CubeDimensionID>Year</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="b2d8c0d3-3b3f-463b-a2ea-277959bb93c8">
+              <AttributeID>Year</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="3f17b9be-1524-4250-8ec7-358d10e9fd9f">
+                  <DataType>Double</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f5c35de5-da16-4436-a759-9c6ca36ad152">
+                    <TableID>dbo_Team_season</TableID>
+                    <ColumnID>year</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="9e5e30c9-52b7-4b5c-90b6-ec2f684fdad0">
+          <CubeDimensionID>Teams State</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="f9e8fb38-32fd-4528-aec5-c0493aba23e1">
+              <AttributeID>Leag</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="5690eea0-872f-4fe3-a526-52b464aafe97">
+                  <DataType>WChar</DataType>
+                  <DataSize>255</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="0d31e1fe-f78a-44f4-91cb-36c1f1500ee0">
+                    <TableID>dbo_Team_season</TableID>
+                    <ColumnID>leag</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="bf3cbbab-fd39-4601-8ba4-7427a4b95373">
+                  <DataType>WChar</DataType>
+                  <DataSize>255</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ab7b5446-22b2-4866-8816-2409b7a0c5cb">
+                    <TableID>dbo_Team_season</TableID>
+                    <ColumnID>team</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="eb5d33fb-7e4a-4acf-94e1-aebd705e9b1a">
+    <DataSourceViewID>Project</DataSourceViewID>
+  </Source>
+  <MdxScripts>
+    <MdxScript dwd:design-time-name="77e21eda-12fd-4a65-b820-0ee3b0753156">
+      <ID>MdxScript</ID>
+      <Name>MdxScript</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <Commands>
+        <Command>
+          <Text>/*
+The CALCULATE command controls the aggregation of leaf cells in the cube.
+If the CALCULATE command is deleted or modified, the data within the cube is affected.
+You should edit this command only if you manually specify how the cube is aggregated.
+*/
+CALCULATE; 
+CREATE MEMBER CURRENTCUBE.[Measures].[defense_index]
+ AS [Measures].[d 3pa]+[Measures].[d 3pm]+[Measures].[d Asts]+[Measures].[d Blk]+[Measures].[d Dreb]+[Measures].[d Fga]+[Measures].[d Fgm]+[Measures].[d Fta]+[Measures].[d Ftm]+[Measures].[d Oreb]+[Measures].[d Pf]+[Measures].[d Pts]+[Measures].[d Reb]+[Measures].[d Stl]+[Measures].[d To], 
+VISIBLE = 1  ; 
+CREATE MEMBER CURRENTCUBE.[Measures].[offense_index]
+ AS [Measures].[o 3pa]+[Measures].[o 3pm]+[Measures].[o Asts]+[Measures].[o Blk]+[Measures].[o Dreb]+[Measures].[o Fga]+[Measures].[o Fgm]+[Measures].[o Fta]+[Measures].[o Ftm]+[Measures].[o Oreb]+[Measures].[o Pf]+[Measures].[o Pts]+[Measures].[o Reb]+[Measures].[o Stl]+[Measures].[o To], 
+VISIBLE = 1  ; </Text>
+        </Command>
+      </Commands>
+    </MdxScript>
+  </MdxScripts>
+</Cube>

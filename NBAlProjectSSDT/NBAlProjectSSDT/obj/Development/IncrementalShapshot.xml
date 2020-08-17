@@ -1,0 +1,75 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>NBAlProjectSSDT</Database>
+    <Server>localhost</Server>
+    <ConnectionString>DataSource=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>+/ACFlj4FXzBLhm4tXWeNSlvl5Y=4/18/2020 4:35:54 PM4/18/2020 4:13:00 PM</TimeStamp>
+        <ID>
+          <String>Project</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>L3hAiMCN0PsHt3fyuQC4lY8Da9k=4/19/2020 11:33:19 PM4/18/2020 4:14:09 PM</TimeStamp>
+        <ID>
+          <String>Project</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>PDd77D3JajcssOIQYF8WMW2Hr6A=4/20/2020 8:07:34 PM4/20/2020 8:07:34 PM</TimeStamp>
+        <ID>
+          <String>Year</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>baGEqXOiMVCvgfFHyF90TiS4sXk=4/20/2020 8:14:37 PM4/20/2020 8:07:34 PM</TimeStamp>
+        <ID>
+          <String>Players</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>8Vuywtky5ZFpVSCu/UMAO1d9dNM=4/20/2020 8:14:37 PM4/20/2020 8:07:34 PM</TimeStamp>
+        <ID>
+          <String>Teams State</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>l4bie7Ch1ylqnMflR5o6GzvrIUs=4/20/2020 8:20:00 PM4/20/2020 8:06:21 PMcPot9z2qTiMAv2jOGJ5XMOex+V4=4/20/2020 8:07:34 PM4/20/2020 8:06:21 PM</TimeStamp>
+        <ID>
+          <String>Project</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>AXQbqLsM67Vt4iPR9OpOppx74Xw=4/18/2020 4:12:25 PM4/18/2020 4:12:25 PM</TimeStamp>
+      <ID>
+        <String>NBAlProjectSSDT</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2020-04-20T12:20:04.933333Z</LastDeployed>
+</DeploymentSnapshot>
